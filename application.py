@@ -49,7 +49,7 @@ except FileNotFoundError:
         "access_token": os.getenv('IMGUR_ACCESS'),
         "refresh_token": os.getenv('IMGUR_REFRESH')
     }
-PERSON_GROUP_ID="tibame3"
+PERSON_GROUP_ID="tibame12"
 CV_CLIENT = ComputerVisionClient(
     ENDPOINT, CognitiveServicesCredentials(SUBSCRIPTION_KEY))
 LINE_BOT = LineBotApi(LINE_TOKEN)
